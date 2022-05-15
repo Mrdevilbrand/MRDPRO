@@ -74,7 +74,7 @@ rafi_logo = '''
 def login():
 	os.system("clear")
 	try:
-	toket=open('login.txt','r').read()
+	toket = open('login.txt','r')
 		menu()
 	except (KeyError,IOError):
 		print(rafi_logo)

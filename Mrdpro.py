@@ -79,7 +79,7 @@ def login():
 	except (KeyError,IOError):
 		print(rafi_logo)
 		print (' [1] login with token facebook ')
-		print ' [0] exit \n'
+		print (' [0] exit \n')
 		met_log = raw_input(" [\x1b[101m\x1b[1;97m?\x1b[0m] Choose : ")
 		if met_log =="":
 			print '\n [!] Please Fill '; time.sleep(1)

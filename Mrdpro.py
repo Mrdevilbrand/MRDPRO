@@ -66,7 +66,7 @@ rafi_logo = '''
  \x1b[1;93m 《MR.DEVIL, LORD OF DARK WORLD》 
 ═══════════════════════════════════════════
  \x1b[1;93mOWNER    :\x1b[0;92mMR.DEVIL              
- \x1b[0;93mTOOL nm :\x1b[0;92MRD PRO version 1.0.3. 
+ \x1b[0;93mTOOL nm  :\x1b[0;92MRD PRO version 1.0.3. 
 《\x1b[0;92mMR.DEVIL,\x1b[0;92mPROGRAMMER & DARK HACKER《
 ═══════════════════════════════════════════
 '''
@@ -152,12 +152,12 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print(' [!] check your Internet connection ')
 	print(rafi_logo)
-	print ' [%s-%s] facebook user : %s'%(ml,ra,nama)
-	print ' [%s-%s] ip user : %s'%(ml,ra,ip)
-	print ' [%s-%s] id user : %s\n'%(ml,ra,id)
-	print ' [%s1%s] Start crack '%(hj,ra)
-	print ' [%s2%s] Delete token '%(ku,ra)
-	print ' [%s0%s] logout\n '%(m,ra)
+	print (' [%s-%s] facebook user : %s'%(ml,ra,nama)
+	print (' [%s-%s] ip user : %s'%(ml,ra,ip)
+	print (' [%s-%s] id user : %s\n'%(ml,ra,id)
+	print (' [%s1%s] Start crack '%(hj,ra)
+	print (' [%s2%s] Delete token '%(ku,ra)
+	print (' [%s0%s] logout\n '%(m,ra)
 	asw = raw_input(' [?] Choose : ')
 	if asw =='1' or asw =='01':
 		crack()

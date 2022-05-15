@@ -152,12 +152,12 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print(' [!] check your Internet connection ')
 	print(rafi_logo)
-	print (' [%s-%s] facebook user : %s'%(ml,ra,nama)
-	print (' [%s-%s] ip user : %s'%(ml,ra,ip)
-	print (' [%s-%s] id user : %s\n'%(ml,ra,id)
-	print (' [%s1%s] Start crack '%(hj,ra)
-	print (' [%s2%s] Delete token '%(ku,ra)
-	print (' [%s0%s] logout\n '%(m,ra)
+	print (' [%s-%s] facebook user : %s')%(ml,ra,nama)
+	print (' [%s-%s] ip user : %s')%(ml,ra,ip)
+	print (' [%s-%s] id user : %s\n')%(ml,ra,id)
+	print (' [%s1%s] Start crack ')%(hj,ra)
+	print (' [%s2%s] Delete token ')%(ku,ra)
+	print (' [%s0%s] logout\n ')%(m,ra)
 	asw = raw_input(' [?] Choose : ')
 	if asw =='1' or asw =='01':
 		crack()

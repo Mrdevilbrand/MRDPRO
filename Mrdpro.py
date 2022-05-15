@@ -182,7 +182,7 @@ def crack():
 	try:
 		token = open('login_r.txt', 'r').read()
 	except IOError:
-		print' [!] invalid token '
+		print (' [!] invalid token ')
 		tokenz()
 	ra_id = raw_input(" [\x1b[101m\x1b[1;97m?\x1b[0m] ID Public : ")
 	try:

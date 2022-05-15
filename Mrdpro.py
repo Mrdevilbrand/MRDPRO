@@ -82,7 +82,7 @@ def login():
 		print (' [0] exit \n')
 		met_log = raw_input(" [\x1b[101m\x1b[1;97m?\x1b[0m] Choose : ")
 		if met_log =="":
-			print '\n [!] Please Fill '; time.sleep(1)
+			print ('\n [!] Please Fill '); time.sleep(1)
 			login()
 		elif met_log == "1" or met_log == "01":
 			tokenz()
@@ -108,7 +108,7 @@ def tokenz():
 			follow_my_account()
 			jalan(' [!] login succes....')
 		except KeyError:
-			print ' [!] token Wrong '
+			print (' [!] token Wrong ')
 
 def follow_my_account():
     try:

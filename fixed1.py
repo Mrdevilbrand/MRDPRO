@@ -65,8 +65,6 @@ class Main:
 		self.loop = 0
 		try:
 		
-		except requests.exceptions.ConnectionError:
-			print("\n%s [!] NO INTERNET CONNECTION..\n"%(G))
 			exit()
 		os.system("clear")
 		

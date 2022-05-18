@@ -78,9 +78,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://raw.githubusercontent.com/Riyad-RR-Hacker/text/main/Dis').text
-			if basesplit in plr:
-				key = basesplit
+			
 				stat = ("\033[0;92mPREMIUM")
 				FY = '\033[0;93m'
 				FG = '\033[0;92m'

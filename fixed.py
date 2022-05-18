@@ -1008,8 +1008,8 @@ def ran():
 	raw_input(" Press enter to back ")
 	main()
 	
-	if __name__ == '__main__':
-	login()
-
+	
+if __name__ == '__main__':
+main()
 	
 	

@@ -64,7 +64,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https:').text
+			plr = requests.get('https:https://www.facebook.com/Aamirsohailsroya').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;92mFREE")

@@ -399,3 +399,10 @@ def main():
 	os.system('echo -e "❥━──➸➽❥❂❥━──➸➽❥━──➸➽❥❂❥━──➸➽"| lolcat')
 	print(" \x1b[1;92m     tool updating\n")
 	os.system('echo -e "❥━──➸➽❥❂❥━──➸➽❥━──➸➽❥❂❥━──➸➽"| lolcat')
+	
+	raw_input(" Press enter to back ")
+	main()
+	
+	
+if __name__ == '__main__':
+	main()

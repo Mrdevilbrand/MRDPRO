@@ -39,7 +39,7 @@ def runtxt(z):
  
  
  
-def notice():
+def main():
  	
 	
 plist = (platform.uname())[2]

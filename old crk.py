@@ -31,13 +31,13 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
  
  
-def main():
+def runtxt(z):
     for e in z + "\n":
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.03)
  
-      def jalan(z):
+      def main():
  
 plist = (platform.uname())[2]
 basex = plist

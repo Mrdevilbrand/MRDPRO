@@ -4,23 +4,6 @@
 #Mr.devil professional Hacking tool maker 
  
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
-__author__ = 'Mr.devil'
-__copyright = 'All rights reserved . Copyright Mr.devil_brande'
-CorrectUsername = 'D4RKH4CK3R'
-os.system('clear')
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input('\033[1;91mENTER TOOL KEY….~>> :\033[1;93m ')
-    if (username == CorrectUsername):
-            print '\033[1;92m Logged in successfully as '
-            time.sleep(1)
-            os.system('xdg-open https://www.facebook.com/Aamirsohailsroya')
-            os.system('clear')
-            loop = 'false'
-    else:
-        print '\033[1;93m Wrong Key !'
-        os.system('xdg-open https://www.facebook.com/Aamirsohailsroya')
-        os.system('clear')
 try:
     import requests
 except ImportError:

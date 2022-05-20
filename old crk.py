@@ -46,11 +46,11 @@ base4 = (basex3).upper()
 basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
 
 print("%s [%s•%s] ==========================================="%(G,R,G,B,G))
-  ♡>>WELCOME TO DEVIL'S WORLD<<♡ 
-  ░▒█▀▄▀█░▒█▀▀▄░░░▒█▀▀▄
-  ░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█
-  ░▒█░░▒█░▒█░▒█░░░▒█▄▄█
- 《MR.DEVIL, LORD OF DARK WORLD》 
+print("%s [%s•%s]  ♡>>WELCOME TO DEVIL'S WORLD<<♡ "%(G,R,G,B,G))
+print("%s [%s•%s]  ░▒█▀▄▀█░▒█▀▀▄░░░▒█▀▀▄ "%(G,R,G,B,G))
+print("%s [%s•%s]  ░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█"%(G,R,G,B,G))
+print("%s [%s•%s]  ░▒█░░▒█░▒█░▒█░░░▒█▄▄█"%(G,R,G,B,G))
+print("%s [%s•%s] 《MR.DEVIL, LORD OF DARK WORLD》 "%(G,R,G,B,G))
 ═══════════════════════════════════════════
 \033[1;90m══════════════════════════════════════════════════
 \033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mFACEBOOK : Abubockor Riyad  

@@ -51,6 +51,7 @@ print("%s [%s•%s]  ░▒█▀▄▀█░▒█▀▀▄░░░▒█▀�
 print("%s [%s•%s]  ░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█"%(G,R,G,B,G))
 print("%s [%s•%s]  ░▒█░░▒█░▒█░▒█░░░▒█▄▄█"%(G,R,G,B,G))
 print("%s [%s•%s] 《MR.DEVIL, LORD OF DARK WORLD》 "%(G,R,G,B,G))
+                print("")
 		print("%s [%s•%s] %sTOOL NAME : %sSuper Speed Uid Cloning"%(G,R,G,B,G))
 		print("%s [%s•%s] %sVERSION   : %s2.0"%(G,R,G,B,G))
 		print("%s [%s•%s] %sYOUR KEY  : %s%s"%(G,R,G,B,G,key))

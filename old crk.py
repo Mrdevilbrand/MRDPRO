@@ -31,7 +31,7 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
  
  
-def runtxt(z):
+def main():
     for e in z + "\n":
         sys.stdout.write(e)
         sys.stdout.flush()

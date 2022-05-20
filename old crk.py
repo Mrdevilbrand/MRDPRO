@@ -37,7 +37,7 @@ def runtxt(z):
         sys.stdout.flush()
         time.sleep(0.03)
  
-      def main():
+      def login():
  
 plist = (platform.uname())[2]
 basex = plist

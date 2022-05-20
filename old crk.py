@@ -44,9 +44,8 @@ basex2 = base64.b64encode(basex1)
 basex3 = basex2.decode('ascii')
 base4 = (basex3).upper()
 basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
-garis = '''__________________________________________________'''    
-rafi_logo = '''
- ===========================================
+
+print("%s [%s•%s] ==========================================="%(G,R,G,B,G))
   ♡>>WELCOME TO DEVIL'S WORLD<<♡ 
   ░▒█▀▄▀█░▒█▀▀▄░░░▒█▀▀▄
   ░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█

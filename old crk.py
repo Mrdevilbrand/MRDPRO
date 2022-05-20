@@ -45,7 +45,7 @@ basex3 = basex2.decode('ascii')
 base4 = (basex3).upper()
 basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
 		
-		print ("""\033[1;92m _______    _____ ____  ____    _      ______    
+print('"""\033[1;92m _______    _____ ____  ____    _      ______')   
 |_   __ \  |_   _|_  _||_  _|  / \    |_   _ `.  
   | |__) |   | |   \ \  / /   / _ \     | | `. \ 
   |  __ /    | |    \ \/ /   / ___ \    | |  | | 

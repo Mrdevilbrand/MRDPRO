@@ -37,8 +37,6 @@ def runtxt(z):
         sys.stdout.flush()
         time.sleep(0.03)
  
-      def login():
- 
 plist = (platform.uname())[2]
 basex = plist
 basex1 = basex.encode('ascii')

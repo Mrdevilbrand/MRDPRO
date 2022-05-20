@@ -44,8 +44,7 @@ basex2 = base64.b64encode(basex1)
 basex3 = basex2.decode('ascii')
 base4 = (basex3).upper()
 basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
-		
-print('"""\033[1;92m _______    _____ ____  ____    _      ______')                              
+		                            
 \033[1;90m══════════════════════════════════════════════════
 \033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mFACEBOOK : Abubockor Riyad  
 \033[1;91m [\033[1;94m✓\033[1;91m] \033[1;92mFB GROUP : RR Termux Command 

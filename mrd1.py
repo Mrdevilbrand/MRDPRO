@@ -216,7 +216,6 @@ def action():
                         cps.close()
                         cpb.append(c + user + pass3)
          
-         
                                                    
         except:
             pass

@@ -46,9 +46,9 @@ else:
 def banner():
 	print("""
 \033[0;96m~~~~~~~~~~W3LCOM3~~~~~~~~~~~~~~~~~~~~  
-\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║ \033[0;97mOWNER\033[0;96m  >MR.DEVIL
-\033[0;96m ░▒█▒█▒█░▒█▄▄▀░▒█░▒█ \033[0;96m║ \033[0;97mTOOL.nm\033[0;96m>MRD.PRO v 0.3
-\033[0;96m ░▒█░░▒█░▒█░▒█░▒█▄▄█ \033[0;96m║ \033[0;97mFollow me on github for more tool
+\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║ \033[0;97mOWNER  \033[0;96m[MR.DEVIL
+\033[0;96m ░▒█▒█▒█░▒█▄▄▀░▒█░▒█ \033[0;96m║ \033[0;97mTOOL.nm\033[0;96m[MRD.PRO v 0.3
+\033[0;96m ░▒█░░▒█░▒█░▒█░▒█▄▄█ \033[0;96m║ \033[0;93mFollow me on github for more tool
 \033[0;96m MR.DEVIL,LORD OF DARK WORLD 
 \033[0;96m─────────────────────────────────────────────────────────────""")
 
@@ -169,7 +169,7 @@ def convert():
 			open("login.txt",'w').write(find_token.group(1))
 			return
 	except Exception as e:
-		print(R+"\n   [•] Error : %s"%e)
+		print(R+"\n   [•]: %s"%e)
 		exit()
 def bot_komen():
 	try:

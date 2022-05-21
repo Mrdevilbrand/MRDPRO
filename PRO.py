@@ -46,10 +46,10 @@ else:
 def banner():
 	print("""
 \033[0;96m~~~~~~~~~~W3LCOM3~~~~~~~~~~~~~~~~~~~~  
-\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║ \033[0;97mOWNER\033[0;96m   MR.DEVIL
-\033[0;96m ░▒█▒█▒█░▒█▄▄▀░▒█░▒█ \033[0;96m║ \033[0;97mTOOL nm\033[0;96mMRD.PRO
-\033[0;96m ░▒█░░▒█░▒█░▒█░▒█▄▄█ \033[0;96m║ \033[0;97mFB \033[0;96m: Follow me on github for more tool
-\033[0;96m MR.DEVIL .LORD DARK WORLD 
+\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║ \033[0;97mOWNER\033[0;96m  >MR.DEVIL
+\033[0;96m ░▒█▒█▒█░▒█▄▄▀░▒█░▒█ \033[0;96m║ \033[0;97mTOOL.nm\033[0;96m>MRD.PRO v 0.3
+\033[0;96m ░▒█░░▒█░▒█░▒█░▒█▄▄█ \033[0;96m║ \033[0;97mFollow me on github for more tool
+\033[0;96m MR.DEVIL,LORD OF DARK WORLD 
 \033[0;96m─────────────────────────────────────────────────────────────""")
 
 host="https://mbasic.facebook.com"
@@ -130,7 +130,7 @@ def gen():
 			menu()
 		else:print("   [!] Invalid Cookie").format(R,N);gen()
 	except Exception as e:
-		print("   [!] Error : %s"%e);gen()
+		print("   [!]enter : %s"%e);gen()
                 logs()
 def log_token():
 	data = raw_input("   [•] Token :")

@@ -218,7 +218,7 @@ def action():
     p.map(main, id)
     print ("50* '\033[1;32m-'")
     print ('Process Has Been Completed ...')
-    print ('Total Online/Offline : '+str(len(oks))+'/'+str(len(cpb))')
+    print 'Total Online/Offline : '+str(len(oks))+'/'+str(len(cpb))
     print('Cloned Accounts Has Been Saved : save/cloned.txt')
     jalan("Note : Your Cp account Will Open after 4-7 days")
     print ''

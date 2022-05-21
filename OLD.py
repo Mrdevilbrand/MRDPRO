@@ -151,10 +151,10 @@ def pilih_login():
         Zeek()
 def Zeek():
     os.system('clear')
-    print logo1
+    print ('logo1')
     print ('\x1b[1;32m[1]START CLONING')
     time.sleep(0.10)
-    print '\x1b[1;91m[0]back'
+    print ('\x1b[1;91m[0]back')
    
     time.sleep(0.05)
     action()
@@ -167,7 +167,7 @@ def action():
     elif peak =="1":              
         os.system("clear")
         print logo2
-        print "\x1b[1;33m2004-2009 [Enter - 00]"+'\n'
+        print ("\x1b[1;33m2004-2009 [Enter - 00]"+'\n')
         print ('\x1b[1;35mENTER ONLY 00 TO CLONING 2004-2009 ACCOUNT')
         try: 
             c = raw_input("\033[1;95mCHOOSE : ")

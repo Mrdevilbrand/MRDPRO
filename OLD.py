@@ -183,13 +183,13 @@ def action():
     else:
         print ('[!] Fill In Correctly')
         action()
-    print 50* '\033[1;93m-'
+    print 50* ('\033[1;93m-')
     xxx = str(len(id))
     jalan ('\033[1;93mTOTAL OLD ID NUMBER : '+xxx)
     jalan ('\033[1;96mCODE YOU CHOOSE '+c)
     jalan ("\033[1;31mWait A While \x1b[1;32mStart Cracking...")
     jalan ("\033[1;32mTo Stop Process Press Ctrl+z")
-    print 50* '\033[1;93m-'
+    print 50* ('\033[1;93m-')
     def main(arg):
         global cpb,oks
         user = arg

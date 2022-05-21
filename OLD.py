@@ -166,7 +166,6 @@ def action():
         action()
     elif peak =="1":              
         os.system("clear")
-        print logo2
         print ("\x1b[1;33m2004-2009 [Enter - 00]"+'\n')
         print ('\x1b[1;35mENTER ONLY 00 TO CLONING 2004-2009 ACCOUNT')
         try: 

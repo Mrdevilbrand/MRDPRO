@@ -216,7 +216,7 @@ def action():
         
     p = ThreadPool(30)
     p.map(main, id)
-    print 50* '\033[1;32m-'
+    print ("50* '\033[1;32m-'")
     print 'Process Has Been Completed ...'
     print 'Total Online/Offline : '+str(len(oks))+'/'+str(len(cpb))
     print('Cloned Accounts Has Been Saved : save/cloned.txt')

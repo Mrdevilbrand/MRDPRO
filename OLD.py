@@ -221,10 +221,6 @@ def action():
     print ("Total Online/Offline : '+str(len(oks))+'/'+str(len(cpb))")
     print('Cloned Accounts Has Been Saved : save/cloned.txt')
     jalan("Note : Your Cp account Will Open after 4-7 days")
-    print ''
-    print """
-    Mr.devil \033[1;95mFb\033[1;97m 
-\033[1;95m033[1;97m"""
 
     
     raw_input("\n\033[1;92m[\033[1;92mBack\033[1;95m]")

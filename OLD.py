@@ -134,7 +134,7 @@ def lisensi():
     login()
 def login():
     os.system('clear')
-    print logo1
+    print ('logo1')
     print "\033[1;93m[1]\x1b[1;93mSTART \033[1;32m>CLONING<"
     time.sleep(0.05)
     print "\033[1;96m[2]\x1b[1;96mUPDATE tool \033[1;93m(1.6)"

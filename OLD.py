@@ -145,7 +145,7 @@ def login():
 def pilih_login():
     peak = raw_input("\n\033[1;95mCHOOSE: \033[1;34m")
     if peak =="":
-        print "\x1b[1;97mFill In Correctly"
+        print ("\x1b[1;97mFill In Correctly")
         pilih_login()
     elif peak =="1":
         Zeek()
@@ -162,13 +162,13 @@ def Zeek():
 def action():
     peak = raw_input('\n\033[1;95mCHOOSE :\033[1;32m')
     if peak =='':
-        print '[!] Fill In Correctly'
+        print ('[!] Fill In Correctly')
         action()
     elif peak =="1":              
         os.system("clear")
         print logo2
         print "\x1b[1;33m2004-2009 [Enter - 00]"+'\n'
-        print '\x1b[1;35mENTER ONLY 00 TO CLONING 2004-2009 ACCOUNT'
+        print ('\x1b[1;35mENTER ONLY 00 TO CLONING 2004-2009 ACCOUNT')
         try: 
             c = raw_input("\033[1;95mCHOOSE : ")
             k="1000"
@@ -182,7 +182,7 @@ def action():
     elif peak =='0':
         login()
     else:
-        print '[!] Fill In Correctly'
+        print ('[!] Fill In Correctly')
         action()
     print 50* '\033[1;93m-'
     xxx = str(len(id))

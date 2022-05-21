@@ -8,7 +8,7 @@ loop = 'true'
 while (loop == 'true'):
     username = raw_input('\033[1;91mENTER TOOL KEY~>>> :\033[1;93m ')
     if (username == CorrectUsername):
-            print '\033[1;92m Logged in successfully as '
+            print ('\033[1;92m Logged in successfully as ')
             time.sleep(1)
             os.system('xdg-open https://www.facebook.com/Aamirsohailsroya')
             os.system('clear')
@@ -39,7 +39,7 @@ try:
 except ImportError:
     os.system('pip2 install request')
     time.sleep(1)
-    os.system('Then type: python2 boss')
+    os.system('Then type: python2 MRDOLD.py')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -100,7 +100,7 @@ print  """
 
 \033[0;96m─────────────────────────────────────────────────────────────
 \033[0;96m~~~~~~~~~~W3LCOM3~~~~~~~~~~~~~~~~~~~~  
-\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║\033[0;97mOWNER   [▪]\033[0;96mMR.DEVIL
+\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║\033[0;97mOWNER  [▪]\033[0;96mMR.DEVIL
 \033[0;96m ░▒█▒█▒█░▒█▄▄▀░▒█░▒█ \033[0;96m║\033[0;97mTOOL nm[▪]\033[0;96mMRD.OLD ID CLONER
 \033[0;96m ░▒█░░▒█░▒█░▒█░▒█▄▄█ \033[0;96m║\033[0;97m \033[0;96m: Follow me on github for more tools
 \033[0;96m MR.DEVIL .LORD DARK WORLD 
@@ -111,7 +111,7 @@ logo1 = """
 \033[36m
 \033[0;96m─────────────────────────────────────────────────────────────
 \033[0;96m~~~~~~~~~~W3LCOM3~~~~~~~~~~~~~~~~~~~~  
-\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║\033[0;97mOWNER   [▪]\033[0;96mMR.DEVIL
+\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║\033[0;97mOWNER  [▪]\033[0;96mMR.DEVIL
 \033[0;96m ░▒█▒█▒█░▒█▄▄▀░▒█░▒█ \033[0;96m║\033[0;97mTOOL nm[▪]\033[0;96mMRD.OLD ID CLONER
 \033[0;96m ░▒█░░▒█░▒█░▒█░▒█▄▄█ \033[0;96m║\033[0;97m \033[0;96m: Follow me on github for more tools
 \033[0;96m MR.DEVIL .LORD DARK WORLD 
@@ -120,7 +120,7 @@ logo1 = """
 logo2 = """
 \033[0;96m─────────────────────────────────────────────────────────────
 \033[0;96m~~~~~~~~~~W3LCOM3~~~~~~~~~~~~~~~~~~~~  
-\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║\033[0;97mOWNER   [▪]\033[0;96mMR.DEVIL
+\033[0;96m ░▒█▀▄▀█░▒█▀▀▄░▒█▀▀▄ \033[0;96m║\033[0;97mOWNER  [▪]\033[0;96mMR.DEVIL
 \033[0;96m ░▒█▒█▒█░▒█▄▄▀░▒█░▒█ \033[0;96m║\033[0;97mTOOL nm[▪]\033[0;96mMRD.OLD ID CLONER
 \033[0;96m ░▒█░░▒█░▒█░▒█░▒█▄▄█ \033[0;96m║\033[0;93m Follow me on github for more tools
 \033[0;96m MR.DEVIL,LORD OF DARK WORLD 

@@ -135,11 +135,11 @@ def lisensi():
 def login():
     os.system('clear')
     print ('logo1')
-    print "\033[1;93m[1]\x1b[1;93mSTART \033[1;32m>CLONING<"
+    print ("\033[1;93m[1]\x1b[1;93mSTART \033[1;32m>CLONING<")
     time.sleep(0.05)
     print "\033[1;96m[2]\x1b[1;96mUPDATE tool \033[1;93m(1.6)"
     time.sleep(0.05)
-    print '\x1b[1;34m[0]\033[1;94mExit '
+    print ('\x1b[1;34m[0]\033[1;94mExit ')
     pilih_login()
 
 def pilih_login():
@@ -152,7 +152,7 @@ def pilih_login():
 def Zeek():
     os.system('clear')
     print logo1
-    print '\x1b[1;32m[1]START CLONING'
+    print ('\x1b[1;32m[1]START CLONING')
     time.sleep(0.10)
     print '\x1b[1;91m[0]back'
    
